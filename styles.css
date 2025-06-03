@@ -1,0 +1,106 @@
+:root {
+    --text: #defce9;
+    --innertext: white;
+}
+
+/*colors*/
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #142f16, #11191F);
+}
+
+/* Text */
+h1 {
+    font-size: 4rem;
+    font-family: "Bree Serif", serif;
+    color: var(--text);
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: "Outfit", sans-serif;
+    color: var(--text);
+}
+
+h3 {
+    font-size: 4rem;
+    text-align: center;
+    color: var(--innertext);
+    margin: 4rem;
+    font-family: "Bree Serif", serif;
+}
+
+h4 {
+    font-size: 2rem;
+    color: var(--innertext);
+}
+
+p {
+    font-size: 1rem;
+    font-family: "Outfit", sans-serif;
+    color: var(--text);
+}
+
+#name {
+    text-align: left;
+    background: url(Images/pexels-joshuaworoniecki-19979603.jpg) center center / cover no-repeat;
+
+}
+
+.reveal-mask {
+
+    background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), transparent 100px, rgba(0, 0, 0, 0.85) 300px);
+    pointer-events: none;
+    transition: background-position 0.05s;
+    padding: 3rem;
+}
+
+#about {
+    background: url(Images/ChatGPT\ Image\ Jun\ 2\,\ 2025\,\ 08_46_18\ PM.png) no-repeat center center;
+    background-size: cover;
+    padding: 1.5rem;
+}
+
+#Experience {
+    margin: 2rem;
+}
+
+.skill-container {
+
+    margin: 3rem;
+}
+
+.skill-text {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+
+}
+
+img {
+    width: 6rem;
+}
+
+.profile-image {
+    width: 12rem;
+    text-align: center;
+}
+
+#footer {
+    height: 20rem;
+    text-align: center;
+}
+
+i {
+    font-size: 3.8rem;
+    margin-right: 5rem;
+    color: var(--text);
+}
+
+i:hover {
+    color: #a3fdcf;
+}
+
+a {
+    text-decoration: none;
+}
